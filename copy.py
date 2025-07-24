@@ -1,6 +1,6 @@
 import streamlit as st
 
-text_to_copy = "This text will be copied!"
+text_to_copy = "Hi"
 st.code(text_to_copy)
 
 st.markdown(f"""
@@ -25,3 +25,6 @@ st.markdown(f"""
         }});
     </script>
 """, unsafe_allow_html=True)
+
+
+This text will be copied!
