@@ -1,10 +1,7 @@
-###copy.py
 import streamlit as st
 
-text_to_copy = st.text_input("Hello, World!")
-
-hosted_html_file = "https://testcopy.streamlit.app/files/copy.html"
-iframe_url = f"{hosted_html_file}?copy={text_to_copy}"
+text_to_copy = "This text will be copied!"
+st.code(text_to_copy)
 
 st.markdown(f"""
     <button id="copyButton" style="
